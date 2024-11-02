@@ -25,7 +25,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Working through Tickets</h2>
 
 <p>
-In this project, we simulate some helpdesk tickets and work through them to resolution. Login as an admin, find agents and click on departments. Check the Maintenance department, click More then delete. 
+In this project, we simulate helpdesk tickets and resolve them. Log in as an admin, navigate to Agents, then click on Departments. Select the Maintenance department, click More, and then choose Delete.
 
 Go to http://localhost/osTicket and open a new ticket. Let's create a ticket about a user named Karen and is reporting that their company's mobile/online banking system is down.
 </p>
@@ -38,7 +38,7 @@ Go to http://localhost/osTicket and open a new ticket. Let's create a ticket abo
 
 <img src="https://github.com/user-attachments/assets/eed67ceb-8e24-4e0a-bd92-a33c2b2c65f5" height="80%" width="80%" alt="ticket 1 created"/>
 </p>
-<p>We’ll access this ticket using the John Doe user we created in the Post-Installation project. Since online banking being down is urgent, we’ll set the SLA to "Sev-A." Although John is on the support team and could work on it, it's more appropriate to assign it to the Online Banking team. Jane from that team can then resolve and close the ticket.
+<p>We’ll access the ticket using the John Doe user from the Post-Installation project. Given the urgency of the online banking issue, we’ll set the SLA to "Sev-A." While John from the support team could handle it, it's better to assign it to the Online Banking team. Jane from that team will resolve and close the ticket.
 </p>
 <br />
 <p>
@@ -47,16 +47,16 @@ Go to http://localhost/osTicket and open a new ticket. Let's create a ticket abo
 </p>
 
 <p>
-If a ticket is submitted saying the Adobe software update is broken in the accounting department, and John picks it up, he should check for details. If the ticket is unclear, it’s best to call the customer to clarify the scope of the issue and possible causes, like whether it's a faulty patch or an Adobe issue.
+If a ticket indicates that the Adobe software update is broken in the accounting department, John should review the details. If the ticket lacks clarity, it’s best to call the customer to clarify the issue's scope and potential causes, such as a faulty patch or an Adobe-related problem.
 
-In this example, let's say only a few users are affected. John can classify it as a "Sev-C" (minor impact), advise the users to try restarting their computers, and, if that solves the problem, close the ticket.
+In this scenario, let’s assume only a few users are affected. John can categorize it as "Sev-C" (minor impact), suggest that the users restart their computers, and close the ticket if that resolves the issue.
 
 </p>
 <img src="https://github.com/user-attachments/assets/30d6e70b-fb5c-4dab-acbb-c69bcb2c0950" height="80%" width="80%" alt="closed 2nd ticket"/>
 <br />
 
 <p>
-For a final example, if the CFO can’t turn on their laptop, this is potentially serious since they may need critical documents. However, the severity depends on how quickly it can be fixed (e.g., a battery issue is easier than a failed inverter). We’ll set the priority to "emergency" for now and adjust it if needed once we have more details..
+For our final example, if the CFO can't turn on their laptop, it could be serious due to the need for critical documents. The severity will depend on how quickly the issue can be resolved (e.g., a battery problem is easier to fix than a failed inverter). We'll initially set the priority to "emergency" and adjust it later based on further information.
 </p>
 <br />
 
@@ -65,10 +65,9 @@ For a final example, if the CFO can’t turn on their laptop, this is potentiall
 </p>
 <br />
 <p>
-After learning the charger was broken, we can set the SLA to "Sev-B" since it's an easy fix. Once a new charger is found and the laptop powers on, we can close the ticket.
-  
+After discovering that the charger was broken, we can set the SLA to "Sev-B," as it’s an easy fix. Once a new charger is obtained and the laptop powers on, we can close the ticket.
 </p>
 
 <p>
-Working through tickets requires some investigation, but asking the right questions and knowing when to escalate makes a big difference.
+Resolving tickets requires some investigation, but asking the right questions and knowing when to escalate can make a significant impact.
 </p>
